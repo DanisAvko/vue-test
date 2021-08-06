@@ -2,7 +2,6 @@
   <el-table
     :data="transformItems"
     row-key="id"
-    expand-row-keys="id"
     :tree-props="{ children: 'children' }"
   >
     <template v-for="header in headers">
